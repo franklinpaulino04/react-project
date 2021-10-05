@@ -3,6 +3,7 @@ import './App.css';
 
 // Components
 import Header from "./components/Header";
+import Form from "./components/Form";
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
              title='Cotizador de Seguros'
          />
          <div className="form">
-
+             <Form/>
          </div>
      </div>
   );
