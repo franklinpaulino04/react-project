@@ -1,0 +1,9 @@
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form{
+    background-color: #FFF;
+    padding: 3rem;
+}
