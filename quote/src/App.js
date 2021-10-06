@@ -1,10 +1,12 @@
-import React, {useState} from 'react';
+import React, {Fragment, useState} from 'react';
 import './App.css';
 
 // Components
 import Header from "./components/Header";
 import Form from "./components/Form";
 import Summary from "./components/Summary";
+import Result from "./components/Result";
+import Spinner from "./components/Spinner";
 
 function App() {
 
@@ -17,7 +19,9 @@ function App() {
         }
     });
 
-    const { data } = summary;
+    const [loading, setLoading] = useState(false);
+
+    const { quote, data } = summary;
 
     return (
      <div className="container">
@@ -27,11 +31,19 @@ function App() {
          <div className="form">
              <Form
                  setSummary={setSummary}
+                 setLoading={setLoading}
              />
 
-             <Summary
-             data={data}
-             />
+             { loading ? (<Spinner/>) : (
+                 <Fragment>
+                     <Summary data={data}/>
+                     <Result quote={quote}/>
+                 </Fragment>
+             ) }
+
+
+
+             {/*{ !loading ? ( <Result quote={quote}/> ) : null }*/}
 
          </div>
      </div>

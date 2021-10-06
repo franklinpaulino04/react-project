@@ -1,8 +1,9 @@
 import React, {useState} from 'react';
 import './Form.css';
 import {calculateBrand, getPlan, getYearDifference} from "../Helpder";
+import PropTypes from 'prop-types';
 
-const Form = ({setSummary}) => {
+const Form = ({setSummary, setLoading}) => {
 
     const [data, setData] = useState({
         brand:'',
@@ -10,7 +11,7 @@ const Form = ({setSummary}) => {
         plan:''
     });
 
-    const [error,setError] = useState(false);
+    const [error, setError] = useState(false);
 
     const { brand, year, plan } = data;
 
@@ -51,10 +52,19 @@ const Form = ({setSummary}) => {
 
         result = parseFloat(incrementPlan * result).toFixed(2);
 
-        setSummary({
-            quote: result,
-            data
-        });
+        setLoading(true);
+
+        setTimeout(() => {
+
+            setLoading(false);
+
+            setSummary({
+                quote: result,
+                data
+            });
+
+        },3000);
+
     }
 
     return(
@@ -93,6 +103,11 @@ const Form = ({setSummary}) => {
             <button type="submit">Cotizar</button>
         </form>
     );
+}
+
+Form.propTypes = {
+    setSummary: PropTypes.func.isRequired,
+    setLoading: PropTypes.func.isRequired,
 }
 
 export default Form;
