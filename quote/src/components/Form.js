@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import './Form.css';
 import {calculateBrand, getPlan, getYearDifference} from "../Helpder";
 
-const Form = () => {
+const Form = ({setSummary}) => {
 
     const [data, setData] = useState({
         brand:'',
@@ -50,6 +50,11 @@ const Form = () => {
         const incrementPlan = getPlan(plan);
 
         result = parseFloat(incrementPlan * result).toFixed(2);
+
+        setSummary({
+            quote: result,
+            data
+        });
     }
 
     return(
