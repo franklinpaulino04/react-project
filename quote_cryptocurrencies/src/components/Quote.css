@@ -1,0 +1,20 @@
+div{
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.info{
+    font-size: 18px;
+}
+
+.info > span {
+    font-weight:bold;
+}
+
+.price {
+    font-size: 30px;
+}
+
+.price > span {
+    font-weight:bold;
+}
