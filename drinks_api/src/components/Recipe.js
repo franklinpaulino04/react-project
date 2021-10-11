@@ -1,4 +1,5 @@
 import React, {useContext, useState} from 'react';
+import PropTypes from 'prop-types';
 
 // Css
 import './Recipe.css';
@@ -47,7 +48,7 @@ const Recipe = ({ recipe }) => {
     }
 
     const { setIdRecipe, information, setInformation} = useContext(ModalContext);
-    console.log(information);
+
     // Muestra y formatea los ingredientes
     const showIngredients = information => {
 
@@ -97,6 +98,10 @@ const Recipe = ({ recipe }) => {
             </div>
         </div>
     );
+}
+
+Recipe.propTypes = {
+    recipe: PropTypes.object.isRequired,
 }
 
 export default Recipe;
