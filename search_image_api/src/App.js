@@ -15,9 +15,9 @@ function App() {
     const [loading, setLoading] = useState(false);
 
     const consultApi = async () => {
-        if (search.trim() === '') {
+        if(search.trim() === ''){
             return;
-        } else {
+        }else{
             setLoading(true);
         }
         const imagesForPages = 30;
@@ -34,7 +34,7 @@ function App() {
 
                 // Mover la pantalla hacia arriba
                 const jumbotron = document.querySelector('.jumbotron');
-                jumbotron.scrollIntoView({behavior: 'smooth'});
+                jumbotron.scrollIntoView({ behavior: 'smooth' });
 
             })
             .catch((error) => console.log(error));
@@ -44,7 +44,7 @@ function App() {
     const previousPage = () => {
         const newPageActual = (actualPage - 1);
 
-        if (newPageActual === 0) return;
+        if(newPageActual === 0) return;
 
         setActualPage(newPageActual);
     }
@@ -53,40 +53,44 @@ function App() {
     const nextsPage = () => {
         const newPageActual = (actualPage + 1);
 
-        if (newPageActual > totalPage) return;
+        if(newPageActual > totalPage) return;
 
         setActualPage(newPageActual);
     }
 
     useEffect(() => {
         consultApi();
-    }, [images, search, totalPage, loading, actualPage]);
+    },[search, actualPage]);
 
-    return (
-        <div className="container">
-            <div className="jumbotron">
-                <p className="lead text-center">Buscador de Imágenes</p>
-                <Form setSearch={setSearch}/>
-            </div>
+  return (
+      <div className="container">
+        <div className="jumbotron">
+          <p className="lead text-center">Buscador de Imágenes</p>
 
-            <div className="row justify-content-center">
-                {loading ? <Spinner/> : (<ListImages images={images}/>)}
-
-                {(actualPage === 1 && images.length === 0) ? null : (
-                    <button type="button"
-                            className="bbtn btn-info mr-1"
-                            onClick={previousPage}>&laquo; Anterior </button>)
-                }
-
-                {(actualPage === totalPage) ? null : (
-                    <button
-                        type="button"
-                        className="bbtn btn-info"
-                        onClick={nextsPage}>Siguiente &raquo;</button>)
-                }
-            </div>
+          <Form
+              setSearch={setSearch}
+          />
         </div>
-    );
+
+        <div className="row justify-content-center">
+            { loading ? <Spinner/> : ( <ListImages images={images}/> ) }
+
+          { (actualPage === 1 && images.length === 0) ? null : (
+              <button
+                  type="button"
+                  className="bbtn btn-info mr-1"
+                  onClick={previousPage}>&laquo; Anterior </button>
+          ) }
+
+          { (actualPage === totalPage) ? null : (
+              <button
+                  type="button"
+                  className="bbtn btn-info"
+                  onClick={nextsPage}>Siguiente &raquo;</button>
+          ) }
+        </div>
+      </div>
+  );
 }
 
 export default App;
