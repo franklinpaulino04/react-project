@@ -3,7 +3,9 @@ import './Error.css';
 import PropTypes from 'prop-types';
 
 const Error = ({ msg }) => {
-    return(<p className="my-3 p-4 text-center alert alert-primary">{msg}</p>);
+    return (
+        <p className="alert alert-danger text-center p-2">{ msg }</p>
+    );
 }
 
 Error.propTypes = {

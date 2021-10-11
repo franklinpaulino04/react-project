@@ -1,10 +1,8 @@
 import React, {useState} from 'react';
 import './Form.css';
+import PropTypes from 'prop-types';
 
-// Components
-import Error from "./Error";
-
-const Form = ({setSearch}) => {
+const Form = ({ setSearch }) => {
 
     const [term, setTerm] = useState('');
     const [error, setError] = useState(false);
@@ -22,7 +20,7 @@ const Form = ({setSearch}) => {
         setSearch(term);
     }
 
-    return(  <form onSubmit={handleSubmit}>
+    return( <form onSubmit={handleSubmit}>
         <div className="row">
             <div className="form-group col-md-8">
                 <input
@@ -43,6 +41,10 @@ const Form = ({setSearch}) => {
 
         { error ? (<Error msg="Agrega un término de búsqueda" /> ) : null }
     </form>);
+}
+
+Form.propTypes = {
+    setSearch: PropTypes.func.isRequired,
 }
 
 export default Form;
