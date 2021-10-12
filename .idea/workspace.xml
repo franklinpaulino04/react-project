@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="382b352c-f294-4bfa-acb2-382a4dae33bf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/react-typescript/basico-typescript/src/components/Card.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-typescript/basico-typescript/src/components/Card.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-typescript/basico-typescript/src/components/Footer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-typescript/basico-typescript/src/components/Header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-typescript/basico-typescript/src/components/Product.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-typescript/basico-typescript/src/interfaces/IProduct.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basico/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basico/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basico/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basico/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basico/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basico/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basico/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basico/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basico/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basico/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basico/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basico/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basico/src/components/Card.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basico/src/components/Footer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basico/src/components/Header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basico/src/components/Product.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basico/src/components/card.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basico/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basico/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/breakingbad-api/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/breakingbad-api/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/breakingbad-api/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/breakingbad-api/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/breakingbad-api/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/breakingbad-api/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/breakingbad-api/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/breakingbad-api/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/breakingbad-api/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/breakingbad-api/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/breakingbad-api/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/breakingbad-api/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/breakingbad-api/src/components/Frase.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/breakingbad-api/src/components/Frase.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/breakingbad-api/src/components/Spinner.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/breakingbad-api/src/components/Spinner.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/breakingbad-api/src/images/img_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/breakingbad-api/src/images/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/breakingbad-api/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/breakingbad-api/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/budget/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/budget/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/budget/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/budget/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/budget/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/budget/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/budget/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/budget/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/budget/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/budget/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/budget/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/budget/src/components/BudgetControl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/budget/src/components/Error.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/budget/src/components/Expense.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/budget/src/components/Form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/budget/src/components/List.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/budget/src/components/Quetion.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/budget/src/helpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/budget/src/image/img_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/budget/src/image/img_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/budget/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/budget/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/climates/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/climates/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/climates/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/climates/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/climates/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/climates/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/climates/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/climates/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/climates/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/climates/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/climates/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/climates/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/climates/src/components/Clima.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/climates/src/components/Error.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/climates/src/components/Form.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/climates/src/components/Form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/climates/src/components/Header.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/climates/src/components/Header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/climates/src/image/img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/climates/src/image/img_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/climates/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/climates/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drinks_api/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drinks_api/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drinks_api/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drinks_api/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drinks_api/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drinks_api/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drinks_api/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drinks_api/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drinks_api/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drinks_api/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drinks_api/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drinks_api/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drinks_api/src/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drinks_api/src/components/Form.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drinks_api/src/components/Form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drinks_api/src/components/Header.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drinks_api/src/components/Header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drinks_api/src/components/ListRecipes.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drinks_api/src/components/ListRecipes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drinks_api/src/components/Recipe.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drinks_api/src/components/Recipe.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drinks_api/src/components/Spinner.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drinks_api/src/components/Spinner.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drinks_api/src/context/CategoriesContext.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drinks_api/src/context/CategoriesContext.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drinks_api/src/context/ModalContext.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drinks_api/src/context/ModalContext.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drinks_api/src/context/RecipesContext.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drinks_api/src/context/RecipesContext.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drinks_api/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drinks_api/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/letters_api/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/letters_api/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/letters_api/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/letters_api/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/letters_api/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/letters_api/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/letters_api/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/letters_api/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/letters_api/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/letters_api/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/letters_api/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/letters_api/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/letters_api/src/components/Error.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/letters_api/src/components/Error.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/letters_api/src/components/Form.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/letters_api/src/components/Form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/letters_api/src/components/Info.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/letters_api/src/components/Info.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/letters_api/src/components/Song.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/letters_api/src/components/Song.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/letters_api/src/components/Spinner.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/letters_api/src/components/Spinner.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/letters_api/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/letters_api/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meeting/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meeting/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meeting/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meeting/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meeting/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meeting/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meeting/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meeting/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meeting/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meeting/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meeting/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meeting/src/components/Footer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meeting/src/components/Form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meeting/src/components/Meeting.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meeting/src/image/img_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meeting/src/image/img_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meeting/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meeting/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meeting/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notice_api/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notice_api/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notice_api/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notice_api/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notice_api/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notice_api/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notice_api/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notice_api/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notice_api/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notice_api/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notice_api/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notice_api/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notice_api/src/components/Form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notice_api/src/components/Form.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notice_api/src/components/Header.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notice_api/src/components/Header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notice_api/src/components/Notice.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notice_api/src/components/Notice.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notice_api/src/components/NoticeList.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notice_api/src/components/NoticeList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notice_api/src/hooks/useSelect.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notice_api/src/hooks/useSelect.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notice_api/src/images/img_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notice_api/src/images/img_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notice_api/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notice_api/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quote/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quote/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quote/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quote/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quote/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quote/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quote/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quote/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quote/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quote/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quote/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quote/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quote/src/Helpder.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quote/src/components/Form.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quote/src/components/Form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quote/src/components/Header.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quote/src/components/Header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quote/src/components/Result.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quote/src/components/Result.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quote/src/components/Spinner.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quote/src/components/Spinner.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quote/src/components/Summary.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quote/src/components/Summary.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quote/src/image/img_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quote/src/image/img_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quote/src/image/img_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quote/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quote/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quote_cryptocurrencies/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quote_cryptocurrencies/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quote_cryptocurrencies/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quote_cryptocurrencies/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quote_cryptocurrencies/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quote_cryptocurrencies/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quote_cryptocurrencies/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quote_cryptocurrencies/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quote_cryptocurrencies/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quote_cryptocurrencies/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quote_cryptocurrencies/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quote_cryptocurrencies/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quote_cryptocurrencies/src/components/Error.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quote_cryptocurrencies/src/components/Error.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quote_cryptocurrencies/src/components/Form.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quote_cryptocurrencies/src/components/Form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quote_cryptocurrencies/src/components/Quote.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quote_cryptocurrencies/src/components/Quote.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quote_cryptocurrencies/src/components/Spinner.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quote_cryptocurrencies/src/components/Spinner.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quote_cryptocurrencies/src/hooks/useCryptoCurrency.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quote_cryptocurrencies/src/hooks/useCryptoCurrency.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quote_cryptocurrencies/src/hooks/useCurrency.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quote_cryptocurrencies/src/hooks/useCurrency.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quote_cryptocurrencies/src/images/cryptomonedas.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quote_cryptocurrencies/src/images/img_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quote_cryptocurrencies/src/images/img_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quote_cryptocurrencies/src/images/img_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quote_cryptocurrencies/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quote_cryptocurrencies/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/search_image_api/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/search_image_api/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/search_image_api/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/search_image_api/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/search_image_api/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/search_image_api/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/search_image_api/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/search_image_api/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/search_image_api/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/search_image_api/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/search_image_api/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/search_image_api/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/search_image_api/src/components/Error.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/search_image_api/src/components/Error.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/search_image_api/src/components/Form.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/search_image_api/src/components/Form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/search_image_api/src/components/Image.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/search_image_api/src/components/Image.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/search_image_api/src/components/ListImages.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/search_image_api/src/components/ListImages.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/search_image_api/src/components/Spinner.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/search_image_api/src/components/Spinner.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/search_image_api/src/images/img_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/search_image_api/src/images/img_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/search_image_api/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/search_image_api/src/index.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1zQ7n1tLOf3DVsyDkfpaD3r4chw" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/react-typescript/basico-typescript/src/interfaces" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Users\fpaulino\Documents\react-project\react-typescript\basico-typescript\node_modules\typescript\lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\fpaulino\Documents\react-project\react-typescript\basico-typescript\src\interfaces" />
+      <recent name="C:\Users\fpaulino\Documents\react-project\react-typescript\basico-typescript\src" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="382b352c-f294-4bfa-acb2-382a4dae33bf" name="Default Changelist" comment="" />
+      <created>1634068676526</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1634068676526</updated>
+      <workItem from="1634068692397" duration="5525000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

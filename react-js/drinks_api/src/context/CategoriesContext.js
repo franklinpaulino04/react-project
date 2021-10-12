@@ -18,8 +18,8 @@ const CategoriesProvider = ( props ) => {
             .catch((error) => console.log(`Error category: ${error}`));
     }
 
-    useEffect(() => {
-        consultApi();
+    useEffect( () => {
+         consultApi();
     },[]);
 
     return(
