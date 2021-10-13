@@ -32,7 +32,7 @@ const NewProject = () => {
                     onChange={handleChange}/>
 
                 <input
-                    type="text"
+                    type="submit"
                     className="btn btn-primario btn-block"
                     value="Agregar Proyecto"/>
             </form>
