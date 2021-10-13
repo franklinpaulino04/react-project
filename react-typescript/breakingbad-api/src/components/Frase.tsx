@@ -1,9 +1,18 @@
 import React from 'react';
+
+// Css
 import './Frase.css';
 
-const Frase = ({ frase }) => {
+//Interface
+import {IFrase} from "../Interface/IFrase";
 
-    const {quote, author } = frase;
+type Props = {
+    frase: IFrase
+}
+
+const Frase:React.FC<Props> = ({ frase }) => {
+
+    const { quote, author } = frase;
 
     return (
         <div className="frase">
