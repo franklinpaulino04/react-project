@@ -2,49 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="382b352c-f294-4bfa-acb2-382a4dae33bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/react-typescript/breakingbad-api/src/Interface/IFrase.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-typescript/budget/src/Interface/IExpense.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-typescript/budget/src/components/BudgetControl.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-typescript/budget/src/components/Error.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-typescript/budget/src/components/Expense.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-typescript/budget/src/components/Form.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-typescript/budget/src/components/List.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-typescript/budget/src/components/Quetion.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-typescript/budget/src/helpers.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-typescript/budget/src/image/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-typescript/budget/src/image/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-typescript/climates/src/Interfaces/IClimate.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-typescript/climates/src/Interfaces/IMain.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-typescript/climates/src/Interfaces/ISearch.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-typescript/climates/src/components/Clima.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-typescript/climates/src/components/Error.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-typescript/climates/src/components/Form.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-typescript/climates/src/components/Form.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-typescript/climates/src/components/Header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-typescript/climates/src/components/Header.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-typescript/climates/src/image/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-typescript/climates/src/image/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-typescript/drinks-api/src/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-typescript/drinks-api/src/components/Form.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-typescript/drinks-api/src/components/Form.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-typescript/drinks-api/src/components/Header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-typescript/drinks-api/src/components/Header.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-typescript/drinks-api/src/components/ListRecipes.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-typescript/drinks-api/src/components/ListRecipes.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-typescript/drinks-api/src/components/Recipe.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-typescript/drinks-api/src/components/Recipe.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-typescript/drinks-api/src/components/Spinner.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-typescript/drinks-api/src/components/Spinner.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-typescript/drinks-api/src/context/CategoriesContext.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-typescript/drinks-api/src/context/CategoriesContext.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-typescript/drinks-api/src/context/ModalContext.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-typescript/drinks-api/src/context/ModalContext.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-typescript/drinks-api/src/context/RecipesContext.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-typescript/drinks-api/src/context/RecipesContext.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-js/mern-app/mern-front-end/src/components/auth/Login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-js/mern-app/mern-front-end/src/components/auth/NewAccount.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-js/mern-app/mern-front-end/src/components/layout/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-js/mern-app/mern-front-end/src/components/layout/Sidebar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-js/mern-app/mern-front-end/src/components/projects/ListProjects.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-js/mern-app/mern-front-end/src/components/projects/NewProject.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-js/mern-app/mern-front-end/src/components/projects/Project.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-js/mern-app/mern-front-end/src/components/projects/Projects.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-js/mern-app/mern-front-end/src/components/tasks/FormTask.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-js/mern-app/mern-front-end/src/components/tasks/ListTasks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-js/mern-app/mern-front-end/src/components/tasks/Task.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-typescript/basico-typescript/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-typescript/breakingbad-api/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-typescript/breakingbad-api/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-typescript/breakingbad-api/src/components/Frase.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-typescript/breakingbad-api/src/components/Frase.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +26,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1zQ7n1tLOf3DVsyDkfpaD3r4chw" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -66,7 +43,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/react-typescript/drinks-api/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/react-js/mern-app/mern-front-end/src/components/projects" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="ts.external.directory.path" value="C:\Users\fpaulino\Documents\react-project\react-typescript\climates\node_modules\typescript\lib" />
@@ -74,11 +51,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\fpaulino\Documents\react-project\react-js\mern-app\mern-front-end\src\components\projects" />
       <recent name="C:\Users\fpaulino\Documents\react-project\react-typescript\drinks-api\src" />
       <recent name="C:\Users\fpaulino\Documents\react-project\react-typescript\climates\src" />
       <recent name="C:\Users\fpaulino\Documents\react-project\react-typescript\budget\src" />
       <recent name="C:\Users\fpaulino\Documents\react-project\react-typescript\breakingbad-api\src" />
-      <recent name="C:\Users\fpaulino\Documents\react-project\react-typescript\basico-typescript\src\interfaces" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -90,7 +67,8 @@
       <option name="presentableId" value="Default" />
       <updated>1634068676526</updated>
       <workItem from="1634068692397" duration="9452000" />
-      <workItem from="1634128641467" duration="11204000" />
+      <workItem from="1634128641467" duration="12267000" />
+      <workItem from="1634147047149" duration="11732000" />
     </task>
     <servers />
   </component>
