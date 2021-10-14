@@ -5,6 +5,8 @@ import NewProject from "../projects/NewProject";
 import ListProjects from "../projects/ListProjects";
 
 const Sidebar = () => {
+
+
     return(
         <aside>
             <h1>MERN<span>Tasks</span></h1>
