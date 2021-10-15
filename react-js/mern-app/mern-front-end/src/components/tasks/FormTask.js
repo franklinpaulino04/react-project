@@ -1,8 +1,14 @@
-import React, {useState} from 'react';
+import React, {useContext} from 'react';
+import TaskContext from "../../context/TaskContext";
 
 const FormTask = () => {
 
-    const [] = useState();
+    const taskContext = useContext(TaskContext);
+    const { project } = taskContext;
+
+    if(!project){
+        return null;
+    }
 
     return(
         <div className="formulario">

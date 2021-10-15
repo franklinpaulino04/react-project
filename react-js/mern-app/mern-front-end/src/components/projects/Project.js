@@ -1,10 +1,14 @@
-import React from 'react';
+import React, {useContext} from 'react';
+import TaskContext from "../../context/TaskContext";
 
 const Project = ({ project }) => {
 
+    const taskContext = useContext(TaskContext);
+    const { getProject } = taskContext;
+
     return(
         <li>
-            <button type="button" className="btn btn-blank">{ project.name }</button>
+            <button type="button" onClick={() => getProject(project.id)} className="btn btn-blank">{ project.name }</button>
         </li>
     );
 }

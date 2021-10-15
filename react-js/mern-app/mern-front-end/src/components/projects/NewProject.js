@@ -7,7 +7,7 @@ const NewProject = () => {
 
     const tasksContext = useContext(TaskContext);
 
-    const { form, showForm } = tasksContext;
+    const { form, showForm, addProject, errorForm, showError } = tasksContext;
 
     const [project, setProject] = useState({
         name: '',
@@ -25,6 +25,17 @@ const NewProject = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
+
+        if(name === ''){
+            showError();
+            return;
+        }
+
+        addProject(project);
+
+        setProject({
+            name: '',
+        });
     }
 
     return(
@@ -48,6 +59,8 @@ const NewProject = () => {
                         </form>
                     ) : null
             }
+
+            { errorForm ? <p className="mensaje error">El nombre del Proyecto es obligatorio</p> : null }
         </Fragment>
     );
 }
