@@ -1,24 +1,29 @@
-import React, {Fragment} from 'react';
+import React, {Fragment, useContext, useEffect} from 'react';
 import Task from "./Task";
+
+// context
+import TaskContext from "../../context/TaskContext";
 
 const ListTasks = () => {
 
-    const projectTasks = [
-        {name: 'Elegir Plataforma', state: true },
-        {name: 'Elegir Colores', state: false },
-        {name: 'Elegir Plataformas de pago', state: false },
-        {name: 'Elegir Hosting', state: true },
-    ];
+    const taskContext = useContext(TaskContext);
+    const { tasks, getTasks } = taskContext;
+
+    useEffect(() => {
+        getTasks();
+    },[]);
+
+    if(tasks.length === 0) return null;
 
     return(
         <Fragment>
             <h2>Pryecto: Tienda Virtual</h2>
             <ul className="listado-tareas">
-                { projectTasks.length === 0
+                { tasks.length === 0
                     ? (<li className="tare"> No hay Tareas </li>)
 
-                    : projectTasks.map(task => (
-                        <Task key={task.name} task={task} />
+                    : tasks.map(task => (
+                        <Task key={task.id} task={task} />
                     ))
 
                 }

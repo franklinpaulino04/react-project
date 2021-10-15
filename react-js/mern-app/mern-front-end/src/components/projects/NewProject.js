@@ -7,7 +7,7 @@ const NewProject = () => {
 
     const tasksContext = useContext(TaskContext);
 
-    const { form } = tasksContext;
+    const { form, showForm } = tasksContext;
 
     const [project, setProject] = useState({
         name: '',
@@ -16,6 +16,7 @@ const NewProject = () => {
     const { name } = project;
 
     const handleChange = (e) => {
+
         setProject({
             ...project,
             [e.target.name]: e.target.value,
@@ -28,7 +29,7 @@ const NewProject = () => {
 
     return(
         <Fragment>
-            <button type="button" className="btn btn-block btn-primario"> Nuevo Proyecto</button>
+            <button type="button" className="btn btn-block btn-primario" onClick={() => showForm()}> Nuevo Proyecto</button>
             {
                 form ? (
                         <form onSubmit={handleSubmit} className="formulario-nuevo-proyecto">

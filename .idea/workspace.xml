@@ -4,6 +4,10 @@
     <list default="true" id="382b352c-f294-4bfa-acb2-382a4dae33bf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react-js/mern-app/mern-front-end/src/components/projects/NewProject.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-js/mern-app/mern-front-end/src/components/projects/NewProject.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-js/mern-app/mern-front-end/src/components/tasks/ListTasks.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-js/mern-app/mern-front-end/src/components/tasks/ListTasks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-js/mern-app/mern-front-end/src/context/TaskReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-js/mern-app/mern-front-end/src/context/TaskReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-js/mern-app/mern-front-end/src/context/TaskState.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-js/mern-app/mern-front-end/src/context/TaskState.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-js/mern-app/mern-front-end/src/types/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-js/mern-app/mern-front-end/src/types/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +62,7 @@
       <updated>1634068676526</updated>
       <workItem from="1634068692397" duration="9452000" />
       <workItem from="1634128641467" duration="12267000" />
-      <workItem from="1634147047149" duration="12331000" />
+      <workItem from="1634147047149" duration="20316000" />
     </task>
     <servers />
   </component>
