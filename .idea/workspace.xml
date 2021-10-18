@@ -2,16 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="382b352c-f294-4bfa-acb2-382a4dae33bf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/react-js/mern-app/mern-front-end/src/context/tasks/TaskContext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-js/mern-app/mern-front-end/src/context/tasks/TaskReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-js/mern-app/mern-front-end/src/context/tasks/TaskState.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-js/mern-app/mern-front-end/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-js/mern-app/mern-front-end/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-js/mern-app/mern-front-end/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-js/mern-app/mern-front-end/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-js/mern-app/mern-front-end/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-js/mern-app/mern-front-end/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react-js/mern-app/mern-front-end/src/components/projects/ListProjects.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-js/mern-app/mern-front-end/src/components/projects/ListProjects.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react-js/mern-app/mern-front-end/src/components/projects/NewProject.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-js/mern-app/mern-front-end/src/components/projects/NewProject.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react-js/mern-app/mern-front-end/src/components/projects/Project.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-js/mern-app/mern-front-end/src/components/projects/Project.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react-js/mern-app/mern-front-end/src/components/tasks/FormTask.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-js/mern-app/mern-front-end/src/components/tasks/FormTask.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react-js/mern-app/mern-front-end/src/components/tasks/ListTasks.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-js/mern-app/mern-front-end/src/components/tasks/ListTasks.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-js/mern-app/mern-front-end/src/context/TaskReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-js/mern-app/mern-front-end/src/context/TaskReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-js/mern-app/mern-front-end/src/context/TaskState.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-js/mern-app/mern-front-end/src/context/TaskState.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-js/mern-app/mern-front-end/src/context/TaskContext.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-js/mern-app/mern-front-end/src/context/projects/ProjectContext.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-js/mern-app/mern-front-end/src/context/TaskReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-js/mern-app/mern-front-end/src/context/projects/ProjectReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-js/mern-app/mern-front-end/src/context/TaskState.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-js/mern-app/mern-front-end/src/context/projects/ProjectState.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react-js/mern-app/mern-front-end/src/types/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-js/mern-app/mern-front-end/src/types/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,6 +59,9 @@
       <recent name="C:\Users\fpaulino\Documents\react-project\react-typescript\budget\src" />
       <recent name="C:\Users\fpaulino\Documents\react-project\react-typescript\breakingbad-api\src" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\fpaulino\Documents\react-project\react-js\mern-app\mern-front-end\src\context\projects" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -67,7 +73,7 @@
       <updated>1634068676526</updated>
       <workItem from="1634068692397" duration="9452000" />
       <workItem from="1634128641467" duration="12267000" />
-      <workItem from="1634147047149" duration="28337000" />
+      <workItem from="1634147047149" duration="35116000" />
     </task>
     <servers />
   </component>

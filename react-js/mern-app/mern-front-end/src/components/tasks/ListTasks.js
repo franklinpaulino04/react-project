@@ -2,26 +2,24 @@ import React, {Fragment, useContext, useEffect} from 'react';
 import Task from "./Task";
 
 // context
-import TaskContext from "../../context/TaskContext";
+import TaskContext from "../../context/tasks/TaskContext";
+import ProjectContext from "../../context/projects/ProjectContext";
 
 const ListTasks = () => {
 
     const taskContext = useContext(TaskContext);
-    const { tasks, getTasks, project, removeProject } = taskContext;
+    const { tasksProject, removeProject } = taskContext;
 
-    useEffect(() => {
-        getTasks();
-    },[]);
+    const projectContext = useContext(ProjectContext);
+    const { project } = projectContext;
 
     if(!project){
         return <h2> Selecciona un Proyecto </h2>
-    }else{
-
     }
 
     const { id, name } = project;
 
-    if(tasks.length === 0){
+    if(tasksProject.length === 0){
         return null;
     }
 
@@ -29,10 +27,10 @@ const ListTasks = () => {
         <Fragment>
             <h2>Pryecto: {name}</h2>
             <ul className="listado-tareas">
-                { tasks.length === 0
+                { tasksProject.length === 0
                     ? (<li className="tare"> No hay Tareas </li>)
 
-                    : tasks.map(task => (
+                    : tasksProject.map(task => (
                         <Task key={task.id}
                               task={task}
                         />

@@ -1,17 +1,21 @@
 import React, {useContext, useEffect} from 'react';
+
+// Components
 import Project from "./Project";
-import TaskContext from "../../context/TaskContext";
+
+// Context
+import ProjectContext from "../../context/projects/ProjectContext";
 
 const ListProjects = () => {
 
-    const taskContext = useContext(TaskContext);
+    const taskContext = useContext(ProjectContext);
     const { projects, getProjects } = taskContext;
 
     useEffect(() => {
         getProjects();
     },[]);
 
-    if(projects.length === 0) return null;
+    if(projects.length === 0) return <p>No hay proyectos, comienza creando uno</p>;
 
     return(
         <ul className="listado-proyectos">

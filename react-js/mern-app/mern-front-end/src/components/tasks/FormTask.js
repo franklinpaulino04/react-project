@@ -1,9 +1,9 @@
 import React, {useContext} from 'react';
-import TaskContext from "../../context/TaskContext";
+import ProjectContext from "../../context/projects/ProjectContext";
 
 const FormTask = () => {
 
-    const taskContext = useContext(TaskContext);
+    const taskContext = useContext(ProjectContext);
     const { project } = taskContext;
 
     if(!project){

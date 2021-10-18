@@ -1,11 +1,11 @@
 import React, {Fragment, useContext, useState} from 'react';
 
 // Context
-import TaskContext from "../../context/TaskContext";
+import ProjectContext from "../../context/projects/ProjectContext";
 
 const NewProject = () => {
 
-    const tasksContext = useContext(TaskContext);
+    const tasksContext = useContext(ProjectContext);
 
     const { form, showForm, addProject, errorForm, showError } = tasksContext;
 
