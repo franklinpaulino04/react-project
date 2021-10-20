@@ -10,6 +10,8 @@ import {
     ADD_TASK,
     TASK_FORM,
     TASKS_PROJECT,
+    REMOVE_TASK,
+    SELECT_TASK, STATE_TASK, TASK_ACTUAL, TASK_UPDATE,
 } from "../../types";
 
 const TaskState = (props) => {
@@ -31,6 +33,7 @@ const TaskState = (props) => {
             { id: 13, name: 'Elegir Plataformas de pago', state: false, projectId: 3, },
         ],
         tasksProject: null,
+        taskSelection: null,
     }
 
     const [state, dispatch] = useReducer(TaskReducer, initialState);
@@ -58,14 +61,52 @@ const TaskState = (props) => {
         })
     }
 
+    const removeTask = (id) => {
+
+        dispatch({
+            type: REMOVE_TASK,
+            payload: id,
+        })
+    }
+
+    const changeTask = (task) => {
+
+        dispatch({
+            type: STATE_TASK,
+            payload: task,
+        })
+    }
+
+    const getTaskActual = (task) => {
+
+        dispatch({
+           type:TASK_ACTUAL,
+           payload: task,
+        });
+    }
+
+    const updateTask = (task) => {
+
+        dispatch({
+           type:TASK_UPDATE,
+           payload: task,
+        });
+    }
+
     return (
         <TaskContext.Provider value={{
             form: state.form,
             tasks: state.tasks,
             tasksProject: state.tasksProject,
+            task: state.task,
+            taskSelection: state.taskSelection,
             showForm,
             getTasks,
             addTask,
+            removeTask,
+            changeTask,
+            getTaskActual,
+            updateTask,
         }}>
             { props.children }
         </TaskContext.Provider>

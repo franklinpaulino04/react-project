@@ -2,7 +2,7 @@ import {
     ADD_PROJECT,
     GET_PROJECT,
     PROJECT_ACTUAL,
-    REMOVE_PROJECT,
+    REMOVE_PROJECT, SHOW_FORM_PROJECT,
     VALIDATE_FORM
 } from "../../types";
 
@@ -28,6 +28,12 @@ export default (state, action) => {
             return {
                 ...state,
                 errorForm: true,
+            }
+
+        case SHOW_FORM_PROJECT:
+            return {
+                ...state,
+                form: true,
             }
 
         case PROJECT_ACTUAL:

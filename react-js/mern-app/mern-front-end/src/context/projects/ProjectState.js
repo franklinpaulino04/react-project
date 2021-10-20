@@ -10,7 +10,7 @@ import {
     ADD_PROJECT,
     GET_PROJECT,
     PROJECT_ACTUAL,
-    REMOVE_PROJECT,
+    REMOVE_PROJECT, SHOW_FORM_PROJECT,
     VALIDATE_FORM
 } from "../../types";
 
@@ -54,6 +54,13 @@ const ProjectState = (props) => {
         });
     }
 
+    const showForm = () => {
+
+        dispatch({
+           type: SHOW_FORM_PROJECT,
+        });
+    }
+
     const getProject = (projectId) => {
 
         dispatch({
@@ -80,6 +87,7 @@ const ProjectState = (props) => {
             showError,
             getProject,
             removeProject,
+            showForm,
         }}>
             { props.children }
         </ProjectContext.Provider>

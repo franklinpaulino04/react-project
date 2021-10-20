@@ -5,9 +5,9 @@ import ProjectContext from "../../context/projects/ProjectContext";
 
 const NewProject = () => {
 
-    const tasksContext = useContext(ProjectContext);
+    const projectContext = useContext(ProjectContext);
 
-    const { form, showForm, addProject, errorForm, showError } = tasksContext;
+    const { form, showForm, addProject, errorForm, showError } = projectContext;
 
     const [project, setProject] = useState({
         name: '',

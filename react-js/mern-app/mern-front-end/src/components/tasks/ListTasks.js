@@ -1,17 +1,18 @@
-import React, {Fragment, useContext, useEffect} from 'react';
+import React, {Fragment, useContext} from 'react';
 import Task from "./Task";
+import { CSSTransition, TransitionGroup } from "react-transition-group";
 
-// context
+// Context
 import TaskContext from "../../context/tasks/TaskContext";
 import ProjectContext from "../../context/projects/ProjectContext";
 
 const ListTasks = () => {
 
     const taskContext = useContext(TaskContext);
-    const { tasksProject, removeProject } = taskContext;
+    const { tasksProject } = taskContext;
 
     const projectContext = useContext(ProjectContext);
-    const { project } = projectContext;
+    const { project, removeProject } = projectContext;
 
     if(!project){
         return <h2> Selecciona un Proyecto </h2>
@@ -30,11 +31,22 @@ const ListTasks = () => {
                 { tasksProject.length === 0
                     ? (<li className="tare"> No hay Tareas </li>)
 
-                    : tasksProject.map(task => (
-                        <Task key={task.id}
-                              task={task}
-                        />
-                    ))
+                    : (
+                        <TransitionGroup>
+                            {
+                                tasksProject.map(task => (
+                                    <CSSTransition
+                                        key={task.id}
+                                        timeout={200}
+                                        classNames="tarea"
+                                    >
+                                        <Task task={task}
+                                        />
+                                    </CSSTransition>
+                                ))
+                            }
+                        </TransitionGroup>
+                    )
                 }
             </ul>
             <button
